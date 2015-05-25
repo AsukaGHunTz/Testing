@@ -31,7 +31,7 @@ PULL
 
 COMMIT 
 ---------------------------
-0. Coding (Saya SARANKAN untuk Edit satu file sehari agar tidak kewalahan ketika harus add, commit satu-satu file)
+0. ADD FILE/EDIT Coding (Saya SARANKAN untuk Edit atau Tambahkan satu file sehari agar tidak kewalahan ketika harus add, commit satu-satu file)
 1. di CMD, Lakukan CD ke folder baru anda untuk Git.
 2. Cek dengan ketik git status. (Harusnya masih kosong)
 3. Ketikkan git add "nama file (Kutip dibuang)
@@ -42,6 +42,6 @@ PUSH (Harus dilakukan Pull diatas terlebih dahulu)
 --------------------------------------------------
 1. di CMD, Lakukan CD ke folder baru anda untuk Git.
 2. Ketik git pull https://github.com/AsukaGHunTz/Testing
-3. Akan diminta untuk memasukkan Username GitHub anda dan Password (Password tidak terlihay *-nya ketika diketik)
+3. Akan diminta untuk memasukkan Username GitHub anda dan Password (Password tidak terlihat *-nya ketika diketik)
 4. Akan terjadi proses update pada Repo GitHUB. (Silahkan cek)
 
