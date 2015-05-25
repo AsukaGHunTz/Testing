@@ -18,12 +18,12 @@ INSTALASI BESPOKE ( SYNTAX bersifat Case-Sensitive)
 3. Buka CMD dan LAKUKAN CD ke folder baru anda.
 4. Lakukan instalasi Bower npm install -g bower
 5. Lakukan instalasi Gulp npm install -g glup
-6. Lakukan kode berikut (STEP 4,5,6 MASIH PADA FOLDER BARU ANDA)
+6. Lakukan kode berikut (STEP 4,5,6,7 MASIH PADA FOLDER BARU ANDA)
 	npm install -g generator-bespoke
 	npm install -g yo
 	yo bespoke
-
-7. Jika berhasil, seharusnya pada folder anda terdapat folder bower components
+7. Lakukan instalasi Bower sekali lagi.
+8. Jika berhasil, seharusnya pada folder anda terdapat folder bower components
 
 Untuk kedepannya:
 1. Buka CMD dan LAKUKAN CD ke folder baru anda.
