@@ -1,0 +1,47 @@
+Ingat pola ini untuk edit HTML :
+
+1. Pull
+2. Edit/ Coding
+3. git add "nama file"
+4. git commit "nama file" -m "Pesan yang jelas"
+5. Push per day
+6. Laporkan estimasi (Cincai) kapankah fitur siap (dalam satuan hari)
+7. Fitur di Checklist pada Trello dichecklist jika Anda SUDAH yakin tak ada tambahan lagi.
+
+(PASTIKAN ANDA SUDAH MEMASANG DAN MELAKUKAN KONFIGURASI AWAL GIT ANDA)
+
+1.git config --global user.name "Budi Anto" (Ubah, tanda kutip jangan hapus)
+2.git config --global user.email budianto@gmail.com (Ubah, tidak ada tanda kutip)
+
+3.git config --global core.editor vim
+4.git config --global merge.tool vimdiff
+
+5.git config --list (Cek apakah sudah sesuai dengan data diri GitHub anda)
+
+Buat folder baru lagi kemudian ketik:
+
+git init
+
+
+PULL
+---------------------------
+1. di CMD, Lakukan CD ke folder baru anda untuk Git.
+2. Ketik git pull https://github.com/AsukaGHunTz/Testing
+3. Akan terjadi proses update pada folder anda (Silahkan cek)
+
+COMMIT 
+---------------------------
+0. Coding (Saya SARANKAN untuk Edit satu file sehari agar tidak kewalahan ketika harus add, commit satu-satu file)
+1. di CMD, Lakukan CD ke folder baru anda untuk Git.
+2. Cek dengan ketik git status. (Harusnya masih kosong)
+3. Ketikkan git add "nama file (Kutip dibuang)
+4. Ketik git commit "nama file" -m "Pesan yang jelas" (Kutip untuk nama file dihilangkan. Kutip untuk Pesan masih harus ada)
+5. Cek dengan ketik git status.
+
+PUSH (Harus dilakukan Pull diatas terlebih dahulu)
+--------------------------------------------------
+1. di CMD, Lakukan CD ke folder baru anda untuk Git.
+2. Ketik git pull https://github.com/AsukaGHunTz/Testing
+3. Akan diminta untuk memasukkan Username GitHub anda dan Password (Password tidak terlihay *-nya ketika diketik)
+4. Akan terjadi proses update pada Repo GitHUB. (Silahkan cek)
+
